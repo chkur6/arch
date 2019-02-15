@@ -7,7 +7,8 @@ set -e
 ##################################################################################################################
 
 git init
-git config --global user.name "chkur6"
+git config --global user.name "Fred Cooper"
+git config --global user.email "chkur6@users.noreply.github.com"
 sudo git config --system core.editor nano
 git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=25000'
